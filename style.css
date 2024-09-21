@@ -1,0 +1,205 @@
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif; 
+    
+}
+
+.main-div {
+    display: flex;
+    height: 100vh;
+}
+.outer-div #amazon-logo {
+    width: 120px;
+    margin: 10px 0px 15px 590px ;
+}
+
+.outer-div {
+    width: 100%;
+    height: 530px;
+    box-shadow: 0px 1px 10px  1px #00000028;
+}
+
+.inner-div {
+    display: flex; 
+    justify-content: center;
+    text-align: left;
+
+}
+
+.login-page {
+    width: 25%;
+    height: 360px;
+    border: 1px solid rgba(71, 68, 68, 0.196);
+    border-radius: 8px;
+    padding: 25px 20px;
+}
+
+.login-page h1 {
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: 300px;
+}
+
+.login-page label {
+    font-size: 12.5px;
+    font-weight: 600;
+}
+
+.login-page input {
+    width: 98%;
+    padding: 8px 10px;
+    border: 1px solid rgba(71, 68, 68, 0.547);
+    border-radius: 3px;
+}
+
+input:focus {
+    border: none;
+    box-shadow: inset 0 0 0 1px black, 0 0 3px 1px  #0060c0;
+    outline: none;
+  }
+
+#con-btn {
+    border-radius: 8px;
+    width: 98%;
+    font-size: 13px;
+    padding: 7px 8px;
+    background-color: gold;
+    border: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#con-btn:focus {
+    border: none;
+}
+
+#con-btn:hover {
+    background-color: rgb(231, 200, 23);
+}
+
+#links {
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+#links a {
+    color: #0060c0;
+}
+
+#links a:hover {
+    color: rgb(182, 88, 0);
+}
+
+#none-link {
+    font-size: 12.8px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #0060c0;
+    text-decoration: none;
+}
+
+#none-link:hover {
+    color: rgb(182, 88, 0);
+    text-decoration: underline;
+}
+
+.horizon {
+    margin-top:18px; 
+    margin-bottom: 15px;
+    color: rgba(190, 190, 190, 0);
+    border-width: 100%;
+    border-block-end-width: 0.5px;
+}
+
+#job {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+h5 {
+    margin: 0px 20px;
+    overflow: hidden;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.568);
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+h5:before,
+h5:after {
+    background-color: rgba(37, 37, 37, 0.291);
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 7.9%;
+}
+h5:before {
+    right: 1em;
+    margin-left: -50%;
+}
+h5:after {
+    left: 1em;
+    margin-right: -50%;
+}
+
+.display-btn {
+    display: flex;
+    justify-content: center;
+} 
+
+#outer-btn {
+    border-radius: 5px;
+    width: 25%;
+    padding: 5px 8px;
+    background-color: rgba(255, 255, 255, 0.64);
+    border: 1px solid rgba(153, 153, 228, 0.354);
+    margin-bottom: 15px;
+    box-shadow: 1px 1px 1px 1px rgba(153, 153, 228, 0.404);
+    cursor: pointer;
+}
+
+#outer-btn:hover {
+    background-color: rgba(159, 194, 213, 0.113);
+}
+
+
+
+/* responsive max width 480 */
+
+@media (max-width:480px){
+    .outer-div #amazon-logo {
+        width: 120px;
+        margin: 10px 0px 015px 50px ;
+    }
+
+    /* .outer-div {
+        width: 100%;
+        height: 530px;
+        box-shadow: 0px 1px 10px  1px #00000028;
+    } */
+
+    .inner-div {
+        display: flex; 
+        justify-content: center;
+        text-align: left;
+    
+    }
+
+    .login-page {
+        width:  80%;
+        height: 360px;
+        border: 1px solid rgba(71, 68, 68, 0.196);
+        border-radius: 8px;
+        padding: 25px 20px;
+    }
+}
+
